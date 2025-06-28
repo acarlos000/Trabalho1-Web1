@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header{
+   background-color: #065f46;
+   width: 100%;
+   text-align: center;
+   height: 40px;
+   padding-top: 20px;
+   color: white;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+
+
+.Caixaparalegenda {
+  width: 50%;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background: #72a2ce;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.Caixaparalegenda ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Caixaparalegenda li {
+  margin: 5px 0;
+}
+
+.Disponível{
+     background-color: #10b981;
+     padding: 2px;
+     border-radius: 3px;
+     
+}
+.Quase-cheio{
+    background-color: #a188dc;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.Lotado{
+    background-color: #f8a5a5;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+
+.Bloco1{
+    width: 50%;
+    background-color: #10b981;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+.Bloco2{
+    width: 50%;
+    background-color: #a188dc;
+    border-radius: 10px;
+    border: 2px solid #694daa;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.Bloco3{
+    width: 50%;
+    background-color: #f8a5a5;
+    border-radius: 10px;
+    border: 2px solid #8d3c3c;
+    padding: 10px;
+}

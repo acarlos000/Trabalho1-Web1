@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulador de Bicicletário</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>Sistema Bicicletário - Campus</header>
+  <main>
+    <div class="Caixaparalegenda">
+      <h2>Situações</h2>
+      <ul>
+        <li><span class="Disponível">Disponível</span></li>
+        <li><span class="Quase-cheio">Quase cheio</span></li>
+        <li><span class="Lotado">Lotado</span></li>
+      </ul>
+    </div>
+
+    <div class="Bloco1" id="bloco1">
+  <h3>Bloco 1</h3>
+  Número de vagas: <span id="capacidade1">15</span><br>
+  Vagas ocupadas: <span id="ocupadas1">5</span><br>
+  Situação: <span id="status1">Disponível</span><br>
+  Tipo: <span class="coberto">Coberto</span><br>
+  Segurança: <span class="segura">Localizado em um local seguro, com vigilância</span><br>
+  <button onclick="alterarVagas(1, 1)">+1</button>
+  <button onclick="alterarVagas(1, -1)">-1</button>
+</div>
+
+<div class="Bloco2" id="bloco2">
+  <h3>Bloco 2</h3>
+  Número de vagas: <span id="capacidade2">15</span><br>
+  Vagas ocupadas: <span id="ocupadas2">10</span><br>
+  Situação: <span id="status2">Quase-cheio</span><br>
+  <button onclick="alterarVagas(2, 1)">+1</button>
+  <button onclick="alterarVagas(2, -1)">-1</button>
+</div>
+
+<div class="Bloco3" id="bloco3">
+  <h3>Bloco 3</h3>
+  Número de vagas: <span id="capacidade3">15</span><br>
+  Vagas ocupadas: <span id="ocupadas3">15</span><br>
+  Situação: <span id="status3">Lotado</span><br>
+  <button onclick="alterarVagas(3, 1)">+1</button>
+  <button onclick="alterarVagas(3, -1)">-1</button>
+</div>
+
+   
+  </main>
+
+  <footer>
+    <p>Este projeto é apenas ilustrativo. Estas páginas foram desenvolvidas como atividade da Disciplina Programação para Web I.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
